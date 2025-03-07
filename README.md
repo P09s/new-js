@@ -1,1 +1,1 @@
-learning js since cause I am bored 🥱
+learning js since I am bored 🥱
