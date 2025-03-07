@@ -20,3 +20,11 @@ myFunction();
 
 // functions minimizes the code repetition
 // functions makes the code more organized
+
+function newFunction(msg) { //parameter --> msg
+    console.log(msg);
+}
+
+newFunction('This is new function'); //argument --> 'This is new function'
+
+// parameter and argument are not the same but they are related
