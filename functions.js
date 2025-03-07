@@ -28,3 +28,20 @@ function newFunction(msg) { //parameter --> msg
 newFunction('This is new function'); //argument --> 'This is new function'
 
 // parameter and argument are not the same but they are related
+
+function sum(a, b) { // a and b are parameters(local varibales and can only be called inside the function block)
+    s = a + b;
+    return s;
+}
+
+let val = sum(4,10);
+console.log(val);
+
+// arrow function --> they are part of modern js
+// arrow function are more concise and shorter
+
+const arrowFunction = (a,b) => {
+    return a+b;
+}
+let arrowVal = arrowFunction(4,3);
+console.log(arrowVal);
