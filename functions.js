@@ -45,3 +45,21 @@ const arrowFunction = (a,b) => {
 }
 let arrowVal = arrowFunction(4,3);
 console.log(arrowVal);
+
+// forEach loop in js is used to iterate over an array
+//------A callback function is a function that is passed as an argument to another function---//
+
+let arr = [1,2,3,4,5,6,7,8,9,10];
+
+arr.forEach(function printVal(val){
+    console.log(val);
+})
+
+// forEach loop can also be written using arrow function
+
+let arrr = ["John", "Doe", "Jane", "Doe"];
+arrr.forEach((val, idx, arrr) => {
+    console.log(val.toUpperCase(), idx, arrr);
+})
+
+// forEach is higher order function because it takes a function as an argument and executes it --> callback function
